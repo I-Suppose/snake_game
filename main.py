@@ -18,7 +18,7 @@ GREEN = (0, 255, 0)
 
 # Create the screen
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Kawaii Snake Game :3")
+pygame.display.set_caption("Snake Game")
 
 def reset_game():
     global snake, snake_direction, snake_growth, food, score
